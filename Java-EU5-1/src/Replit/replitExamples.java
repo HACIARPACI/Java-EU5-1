@@ -1,34 +1,46 @@
 package Replit;
 
 import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Scanner;
+
+import utilities.ArraysUtility;
 
 public class replitExamples {
 	
 	public static void main(String[] args) {
-
-		String str = "(((W&e**_lco73me %t%o co!@$,,<r>e <J>>>$@av```~a777.||}{";
-		System.out.println(filterString(str));
+		int sum=0;
 		
 		
-	
-}
-	public static String filterString(String s) {
-		String hacý="";
-	
-	for (int i = 0; i < s.length(); i++) {
-		if(Character.isAlphabetic(s.charAt(i))||s.charAt(i)==' ') {
-			hacý+=s.charAt(i);
+		String str="34hj8ejh8843sdkfjsj453f%&/(";
+		for (char each : str.toCharArray()) {
+			if(Character.isDigit(each)) {
+				sum+=Integer.parseInt(""+each);
+			}
 			
+		}
+		System.out.println(sum);
+		
+		String word = "abc@!de$f%ghi1kl2m3n4b5v6";
+		String digits ="";
+		String letters = "";
+		String specialChars = "";
+		for (char each : word.toCharArray()) {
+			if(Character.isDigit(each)) {
+				digits+=each;
+			}else if(Character.isLetter(each)) {
+				letters+=each;	
+				}else {
+					specialChars+=each;
+				}
+				
+				
+			}
+			
+		System.out.println(specialChars);
+		System.out.println(digits);
+		System.out.println(letters);
 		}
 		
 		
+		
+		
 	}
-		return hacý;
-		
-		
-		
-	}		
-	
-}
