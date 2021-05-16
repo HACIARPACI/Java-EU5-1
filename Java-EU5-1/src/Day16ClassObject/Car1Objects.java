@@ -1,10 +1,10 @@
 package Day16ClassObject;
 
-public class CarObjects {
+public class Car1Objects {
 
 	public static void main(String[] args) {
 
-	Car car1= new Car();
+	Car1 car1= new Car1();
 	car1.printCarInfo();
 	car1.make="ford";
 	car1.model="fiesta";

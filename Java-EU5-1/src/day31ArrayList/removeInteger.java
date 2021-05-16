@@ -19,11 +19,13 @@ public class removeInteger {
 		nums.add(55);
 		nums.add(1);
 		System.out.println(nums.toString());
+		nums.remove(1);
+		System.out.println(nums);
 		nums.remove(5);
 		System.out.println(nums.toString());
 		Integer n1=new Integer(5);
 		Integer n2=Integer.valueOf(5);
-		
+		System.out.println("----------------");
 		nums.remove(n1);
 		System.out.println(nums.toString());
 		
@@ -31,7 +33,7 @@ public class removeInteger {
 		System.out.println(nums.toString());
 		
 		
-		
+	
 		
 		
 		

@@ -1,6 +1,6 @@
 package Day16ClassObject;
 
-public class Car {
+public class Car1 {
 	String make;       //properties
 	String model;
 	int currentSpeed;
