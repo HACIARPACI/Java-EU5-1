@@ -36,7 +36,7 @@ public class contrainsMethod {
 		
 		System.out.println(months.indexOf("Feb")==1);
 		System.out.println(months.get(1).equals("Feb"));
-		
+		System.out.println(months.get(months.size()-1).equals("august"));
 		List1.add("Jan"); // iki tane Jan var months kapsadýgý için  true veriyor
 		System.out.println("List1: "+List1);
 		System.out.println("months :"+ months);
@@ -48,6 +48,7 @@ public class contrainsMethod {
 		}
 		
 		
+	
 		
 		
 		

@@ -23,7 +23,7 @@ public class StringManupulationArrays {
 		System.out.println("---------------------");
 		
 		String str ="It willl display the array of the size";
-	String[] arr=	str.split(" ");
+	String[]arr=str.split(" ");
 		System.out.println(arr.length);
 		System.out.print(Arrays.toString(arr));
 	System.out.println(arr[2]); 

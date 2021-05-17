@@ -18,6 +18,7 @@ public class Mouse {
 	
 	//2
 	public Mouse(int numTeeth, int weight) {
+	
 		this(numTeeth,20,weight);
 		this.numTeeth = numTeeth;
 		this.weight = weight;

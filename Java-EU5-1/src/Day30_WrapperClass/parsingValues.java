@@ -28,6 +28,11 @@ public class parsingValues {
 		int SA=Integer.parseInt(S);
 		System.out.println(SA+1);
 		
+		String hacý ="1985";
+		int arpacý=Integer.parseInt(hacý);
+		System.out.println(arpacý+1);
+		
+		
 		
 		
 		

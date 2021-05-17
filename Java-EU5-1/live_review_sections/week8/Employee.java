@@ -23,9 +23,9 @@ public class Employee {
 	}
 
 	
-	
-	
-	
-	
+	// Employee tester1= new Employee("Kunduz","SDET",123,100000);
+	//Employee tester2= new Employee("Kunduz","SDET",123,100000);
+    //Employee tester3= new Employee("Kunduz","SDET",123,100000);
+    //Employee tester4= new Employee("Kunduz","SDET",123,100000);
 	
 }

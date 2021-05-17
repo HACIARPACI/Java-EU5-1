@@ -21,8 +21,6 @@ public class mathClass {
 		System.out.println(Math.log10(5));
 		
 		System.out.println(Math.pow(3, PI));
-		System.out.println(Math.);
-		
 		
 	}
 

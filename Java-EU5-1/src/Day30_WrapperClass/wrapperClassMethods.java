@@ -25,10 +25,8 @@ public class wrapperClassMethods {
 		String word="java101";
 		System.out.println(Character.isAlphabetic(word.charAt(0)));
 		
-		System.out.println(Character.isDefined(word.charAt(6)));
-		
-		System.out.println(Character.isAlphabetic('A'));
-		System.out.println(Character.isDigit('5'));
+		System.out.println(Character.isDefined(word.charAt(2)));
+		int []numbers= {1,2,3,4,5};
 		
 		
 		

@@ -1,5 +1,7 @@
 package week8;
 
+import java.util.Arrays;
+
 public class Microsoft {	   //Microsoft HAS A employee
 public static void main(String[] args) {
 	
@@ -32,7 +34,7 @@ public static void main(String[] args) {
 	System.out.println(nameOfMaxSalary+" has max salary");
 	System.out.println(nameOfMinSalary+" has the min salary");
 	
-	
+	System.out.println(testers[0]);
 	
 	
 }

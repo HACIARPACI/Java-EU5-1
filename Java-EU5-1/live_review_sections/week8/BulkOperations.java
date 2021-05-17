@@ -21,7 +21,7 @@ public class BulkOperations {
 		
 		System.out.println(list2);
 		
-		list2.retainAll( Arrays.asList(1,2));
+		list2.retainAll( Arrays.asList(1,2));// býrakmak
 		
 		System.out.println(list2);
 		

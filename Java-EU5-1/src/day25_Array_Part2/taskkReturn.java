@@ -8,25 +8,18 @@ public class taskkReturn {
 
 	Scanner scan=new Scanner(System.in);
 	double[]Rainfall=new double[12];	
-	String[] months= {"January:", "February:", "March:", "Apr:", "May:", "Jun:", "July:", "August:","Sep:","Oct:","Nov:","Dec:"};
-	 totalRainfallYear();
-	System.out.println("please enter the rainfall for montsa");
+	String[] months= {"January:", "February:", "March:", "Apr:",
+			"May:", "Jun:", "July:", "August:","Sep:","Oct:","Nov:","Dec:"};
+
+	System.out.println("please enter the rainfall for months");
 	 for (int i = 0; i < Rainfall.length; i++) {
-	//	 System.out.println(months[i]); 
-	      Rainfall[i] =scan.nextDouble();
+
+		 
+		 Rainfall[i] =scan.nextDouble();
 		 System.out.println(months[i]+Rainfall[i]);
 		 
 		 
 	 }		
 	 } 
-	public static void totalRainfallYear() {
-		double total=0; 
-	 for (int i = 0; i < 12; i++) {
-		
-		total+=i;
-		System.out.println(total);
-	}
-	 
-	 
-}
+
 }

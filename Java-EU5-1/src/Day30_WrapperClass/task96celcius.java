@@ -6,7 +6,8 @@ public class task96celcius {
 
 	public static void main(String[] args) {
 // substring ile yapma 72 derece  100 derece olunca ortalýk karýsýr.
-	String str1 ="Today weather is sunny and 100 degree.It is aperfect day topractice java.";
+	String str1 ="Today weather is sunny and 100 degree."
+			+ "It is aperfect day topractice java.";
 
 	
 /*	String[] arr= str1.split("and ");	

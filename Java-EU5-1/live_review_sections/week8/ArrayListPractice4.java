@@ -20,7 +20,7 @@ public class ArrayListPractice4 {
 		
 		Collections.replaceAll(list, 'A', 'E');
 		System.out.println(list);
-		
+		System.out.println("*****************************");
 		int frequencyOfE = Collections.frequency(list, 'E');
 		System.out.println(frequencyOfE);
 		

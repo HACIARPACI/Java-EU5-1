@@ -25,7 +25,7 @@ public class ArrayClass {
 		System.out.println(Arrays.binarySearch(numx, 55));
 		System.out.println(Arrays.binarySearch(numx, 5));//-2 inseetionPoint -1
 		System.out.println(Arrays.binarySearch(numx, 15));
-		
+		System.out.println(Arrays.binarySearch(numx, 10));
 		
 //copyOf()      yeni object olusturur eski veriyi tekrar etmez..
 		

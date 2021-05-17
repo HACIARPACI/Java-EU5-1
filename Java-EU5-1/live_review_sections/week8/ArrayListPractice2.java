@@ -13,7 +13,8 @@ public class ArrayListPractice2 {
 		
 		while(true) {
 			System.out.println("Enter a number: ");
-			list.add( scan.nextInt() );
+		//	int number=scan.nextInt();
+		list.add( scan.nextInt() );
 			
 			System.out.println("Do you wanna add another number?");
 			String a = scan.next().toLowerCase();

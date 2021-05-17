@@ -19,8 +19,9 @@ public class arrayListIntro {
 		nums.add(99);
 		nums.add(656);
 		nums.add(100);
-		nums.add(new Integer("100"));
-		
+		nums.add(123123)
+	;	nums.add(new Integer("100"));
+		System.out.println(nums);
 //Reading from ArrayList		
 		
 		System.out.println(names.get(0));

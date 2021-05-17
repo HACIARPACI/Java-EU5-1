@@ -17,7 +17,7 @@ public class task93Split {
 		String[] array = str.split(" ");
 		String hacý =array[2].substring(3);
 		System.out.println(hacý); 
-		System.out.println(str.indexOf("paral"));
+		System.out.println(str.indexOf("he"));
 		System.out.println(array.length);
 		
 

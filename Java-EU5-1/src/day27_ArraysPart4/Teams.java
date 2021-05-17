@@ -1,5 +1,7 @@
 package day27_ArraysPart4;
 
+import java.util.Arrays;
+
 public class Teams {
 
 	public static void main(String[] args) {
@@ -23,6 +25,7 @@ public class Teams {
 		
 		System.out.println("number of teams"+teams.length);
 		System.out.println("peaople in the first team: "+teams[0].length);
+		System.out.println(Arrays.toString(teams[1]));
 		System.out.println("people in the second team is :"+teams[1].length);
 		System.out.println(teams[0][2].length());
 		

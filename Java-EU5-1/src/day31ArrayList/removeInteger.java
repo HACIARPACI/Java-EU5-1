@@ -30,7 +30,7 @@ public class removeInteger {
 		System.out.println(nums.toString());
 		
 		nums.remove(new Integer(44));// silerken object siliyoruz
-		System.out.println(nums.toString());
+		System.out.println(nums);
 		
 		
 	
