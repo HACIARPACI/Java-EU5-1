@@ -10,18 +10,13 @@ public class Light {
 	public Light() {
 		this(0,false);
 		System.out.println("retuerning from no arg constructor no.1");
-		
-		
-		
+			
 	}
 	//2
 	public Light(int watt, boolean ind) {
 		this(watt,ind,"Turkey");
 		System.out.println("retuerning from no arg constructor no.2");
-
-		
-		
-		
+	
 	}
 	//3
 	public Light(int noOfWatts, boolean indicator, String location) {
