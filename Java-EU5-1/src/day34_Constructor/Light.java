@@ -27,6 +27,9 @@ public class Light {
 		System.out.println("retuerning from no arg constructor no.3");
 
 	}
+	public String toString() {
+		return "Light [noOfWatts=" + noOfWatts + ", indicator=" + indicator + ", location=" + location + "]";
+	}
 	
 
 }

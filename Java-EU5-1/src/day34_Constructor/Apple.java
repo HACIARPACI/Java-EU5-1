@@ -4,11 +4,11 @@ public class Apple {
 // instance variable  it belong to object
 	String color="Red";
 	
-	public void mA() {
+/*	public void mA() {
 		
 		System.out.println(color);
 		
-	}
+	}*/
 	
 	
 }

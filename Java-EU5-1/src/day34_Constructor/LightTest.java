@@ -6,7 +6,7 @@ public class LightTest {
 
 		Light l1=new Light();
 		
-		
+
 	}
 
 }
