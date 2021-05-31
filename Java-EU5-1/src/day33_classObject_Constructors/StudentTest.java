@@ -10,6 +10,9 @@ public class StudentTest {
 		s1.attendLecture();
 		s2.attendLab();
 		s1.submitAssignment();
+		System.out.println(s2.toString());
 	}
 
+	
+	
 }

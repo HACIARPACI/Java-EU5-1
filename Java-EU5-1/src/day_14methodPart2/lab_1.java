@@ -1,4 +1,4 @@
-package Day_14methodPart2;
+package day_14methodPart2;
 
 public class lab_1 {
 

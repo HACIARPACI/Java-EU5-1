@@ -6,6 +6,7 @@ public class AppleTest {
 		Apple  a1 = new Apple();
 		changeApple(a1);
 		System.out.println(a1.color);
+		
 		System.out.println(methodObject().color);
 		
 		
@@ -17,7 +18,7 @@ public class AppleTest {
 		
 	}
 	
-	// i want to returm object
+	// i want to return object
 	public static Apple methodObject() {
 		
 		Apple b1= new Apple();

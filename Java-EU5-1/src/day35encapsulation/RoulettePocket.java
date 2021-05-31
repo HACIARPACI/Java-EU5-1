@@ -1,14 +1,14 @@
 package day35encapsulation;
 
 public class RoulettePocket {
-	 public int pocketNumber;
-
+	
+		public int pocketNumber;
 	    private String[] pocketColor;
 
 	    
 	    private void setpocketColors() {
 
-	        pocketColor = new String[37];
+	     pocketColor = new String[37];
 
 	        pocketColor[0] = "green";
 

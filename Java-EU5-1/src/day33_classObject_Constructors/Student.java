@@ -7,7 +7,7 @@ public class Student {
 	char gender;
 	int year;
 	String course;
-	String university="cybertek";
+	String university="odtu";
 	
 	
 	
@@ -31,4 +31,10 @@ public class Student {
 		
 		
 	}
+
+	public String toString() {
+		return "Student [name=" + name + ", age=" + age + ", gender=" + gender + ", year=" + year + ", course=" + course
+				+ ", university=" + university + "]";
+	}
+	
 }

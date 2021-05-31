@@ -9,7 +9,7 @@ public class CarTest {
 	Car c2= new Car("honda", "civic", 2020, 5000, "white");
 	Car c3=new Car("bmw", "320", 2017, 30000, "red");
 	
-	
+	System.out.println(c3.toString());
 	
 	}
 

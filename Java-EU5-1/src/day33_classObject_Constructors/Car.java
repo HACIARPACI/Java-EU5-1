@@ -37,6 +37,12 @@ public class Car {
 		this.mile = mile;
 		this.color = color;
 	}
+
+
+	public String toString() {
+		return "Car [model=" + model + ", make=" + make + ", year=" + year + ", mile=" + mile + ", color=" + color
+				+ "]";
+	}
 	
 	
 	

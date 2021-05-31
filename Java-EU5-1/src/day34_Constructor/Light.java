@@ -9,7 +9,7 @@ public class Light {
 	//1
 	public Light() {
 		this(0,false);
-		System.out.println("retuerning from no arg constructor no.1");
+		System.out.println("returning from no arg constructor no.1");
 			
 	}
 	//2

@@ -15,5 +15,6 @@ public class Carpet {
 
 public double getCost() {
 	return cost;
+	
 }
 }
